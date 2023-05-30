@@ -43,11 +43,11 @@ while (flag_salida==True):
             else:
                 print("No cargaste B ")
 
-        case "E":#colocar flag
+        case "E":
             bajo_m=filtrar_por_altura(nombre,"nombre","altura",False)
             print(f"El mas bajo es {bajo_m}")
 
-        case "F":#colocar flag
+        case "F":
             bajo_f=filtrar_por_altura(nombre_f,"nombre","altura",False)
             print(f"El mas bajo es {bajo_f}")
 
